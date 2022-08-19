@@ -27,13 +27,13 @@
     </head>
   <body>
     <div class="container-sm mx-auto position-absolute top-50 start-50 translate-middle" style="width:400px">
-    <h4 class="text-center">Edit Data Barang</h4>
+    <h4 class="text-center">Update Data</h4>
     <form action="#" method="post">
       <input type="text" name="id" value="<?=$id?>" hidden>
       <div class="form-group">
         <br>
         <label >Item Name</label>
-        <input type="text" name="NamaBarang" value=<?php echo $nama;?> type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+        <input type="text" name="NamaBarang" value="<?php echo $nama;?>" type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
       </div>
       <div class="form-group">
         <br>

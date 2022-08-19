@@ -31,7 +31,7 @@ session_start();
     <div class="jumbotron text-center" style="padding:20px">
       <h1 class="display-4">Yanto Material</h1>
       <hr class="my-4">
-      <p class="lead">Manajemen barang milik TB. Yanto Material.</p>
+      <p class="lead">Yanto Material's Goods Management.</p>
     </div>
   <table class="table">
   <thead>
@@ -41,6 +41,7 @@ session_start();
       <th scope="col">Buy Price</th>
       <th scope="col">Sell Price</th>
       <th scope="col">Stock</th>
+      <th colspan="4"></th>
     </tr>
   </thead>
   <tbody>
@@ -60,13 +61,13 @@ session_start();
 
                 "<form action='#' method='post'>" .
                 "<td><input name='id' value={$row['IDBarang']} hidden>".
-                "<input name='jumlah' type='number' min='1' name='jumlah' placeholder='Beli' style='width:80px'>" .
+                "<input name='jumlah' type='number' min='1' name='jumlah' placeholder='Qty' style='width:80px'>" .
                 "<br><button name='buy' type='submit' class='btn btn-sm btn-success' style='margin-left:21px; margin-top:4px'>Buy &#9650;</button></td>" .
                 "</form>" .
 
                 "<form action='#' method='post'>" .
                 "<input name='id' value={$row['IDBarang']} hidden>".
-                "<td><input type='number' min='1' name='jumlah' placeholder='Jual' style='width:80px'>".
+                "<td><input type='number' min='1' name='jumlah' placeholder='Qty' style='width:80px'>".
                 "<br><button name='sell' class='btn btn-sm btn-warning' style='margin-left:21px; margin-top:4px'>Sell &#9660;</button></td>" .
                 "</form>" .
 

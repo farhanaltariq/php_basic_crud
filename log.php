@@ -9,7 +9,8 @@
     <div class="jumbotron text-center" style="padding:20px">
       <p class="lead"><h4>Transaction Log</h4></p>
     </div>
-    <div class="container">
+    <div class="container-fluid">
+      <a href="read.php" class="btn btn-dark">Go Back</a>
     <table style="display:flex; justify-content: center"><tr><td>
     <table class="table" >
     <thead>
